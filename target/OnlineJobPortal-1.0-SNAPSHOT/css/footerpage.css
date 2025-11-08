@@ -1,0 +1,101 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 Sept 2025, 12:07:52 am
+    Author     : sadhna kushwaha
+*/
+
+/* ========== FOOTER STYLES ========== */
+
+.footer__container {
+  display: grid;
+  gap: 4rem 2rem;
+}
+
+.footer__logo {
+  margin-bottom: 2rem;
+}
+
+.footer__col p {
+  max-width: 400px;
+  color: var(--text-light);
+}
+
+.footer__col h4 {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.footer__links {
+  display: grid;
+  gap: 1rem;
+}
+
+.footer__links a {
+  color: var(--text-light);
+}
+
+.footer__links a:hover {
+  color: var(--primary-color);
+}
+
+.footer__links a span {
+  font-size: 1.25rem;
+   padding: 0 5rem; 
+}
+
+.footer__bar {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
+/* --- Responsive --- */
+@media (min-width: 540px) {
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__container {
+    grid-template-columns: 2fr 1fr 1fr 1fr; 
+      
+  }
+
+    .footer__col {
+    padding: 0 1.5rem; /* thoda extra spacing on larger screens */
+  }
+  
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* vertical spacing between elements */
+  padding: 0 5rem; /* left & right spacing for each column */
+}
+
+.footer__col p,
+.footer__col h4,
+.footer__col a {
+  margin: 0; /* remove default margins to keep alignment consistent */
+}
+
+.footer__links a {
+  display: inline-block; /* ensures spacing works nicely */
+}
+
+ 
+  
+ 
+  
+}
+ 
+
+.col-sm-3 {
+
+}

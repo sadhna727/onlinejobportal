@@ -1,0 +1,6 @@
+com\mycompany\onlinejobportal\DatabaseConnection.class
+com\mycompany\onlinejobportal\EmailSender.class
+com\mycompany\onlinejobportal\EmailSender$1.class
+com\mycompany\onlinejobportal\FileUpload.class
+com\mycompany\onlinejobportal\JAXRSConfiguration.class
+com\mycompany\onlinejobportal\resources\JavaEE8Resource.class
